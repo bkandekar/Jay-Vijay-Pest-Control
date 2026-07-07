@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Gallery | Jay Vijay Pest Control Solapur</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="title" content="Service Gallery | Jay Vijay Pest Control Solapur">
+    <meta name="description" content="View on-site photos of Jay Vijay Pest Control's expert services in Solapur. Proof of our high-quality termite treatments, mosquito fogging, rodent traps, and on-site garden spraying.">
+    <link rel="canonical" href="https://jayvijaypestcontrol.github.io/gallery.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jayvijaypestcontrol.github.io/gallery.html">
+    <meta property="og:title" content="Service Gallery | Jay Vijay Pest Control Solapur">
+    <meta property="og:description" content="View actual on-site photos of Jay Vijay Pest Control's expert services in Solapur. Quality termite treatments, mosquito fogging, rodent traps, and general sprays.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jayvijaypestcontrol.github.io/gallery.html">
+    <meta property="twitter:title" content="Service Gallery | Jay Vijay Pest Control Solapur">
+    <meta property="twitter:description" content="View actual on-site photos of Jay Vijay Pest Control's expert services in Solapur. Quality termite treatments, mosquito fogging, rodent traps, and general sprays.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Loader Spinner -->
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Dismissible top promo banner -->
+    <div class="top-banner" id="top-promo-banner">
+        <p><i class="fas fa-percent"></i> <strong>Monsoon Shield Deal!</strong> Free Comprehensive Property Inspection This Week in Solapur. <a href="#" class="open-booking-modal-btn" style="text-decoration: underline; margin-left: 5px; font-weight: 700;">Claim Free Inspection Now</a></p>
+        <button class="close-banner" id="close-banner-btn" aria-label="Close Promo Banner">&times;</button>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <div class="logo-icon">
+                    <i class="fas fa-shield-virus"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Jay Vijay</h1>
+                    <span>Pest Control</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="testimonials.html" class="nav-link">Reviews</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="#" class="btn btn-accent nav-cta open-booking-modal-btn">Get Free Quote</a>
+            </nav>
+            
+            <button class="hamburger" id="hamburger-menu" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Subpage Banner -->
+    <section class="hero-wrapper" style="padding: 60px 0; background: linear-gradient(135deg, rgba(18, 40, 63, 0.95), rgba(10, 23, 37, 0.98)), url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+        <div class="section-container" style="padding: 40px 20px; text-align: center;">
+            <h1 style="color: white; font-size: 3rem; margin-bottom: 10px;">Our Work Gallery</h1>
+            <p style="color: rgba(255,255,255,0.8); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Proof of our on-field excellence. View actual techniques, equipment, and pristine pest-free properties in Solapur.</p>
+        </div>
+    </section>
+
+    <!-- Gallery section with interactive JS filters -->
+    <section class="section-container reveal">
+        <div class="gallery-filter-menu">
+            <button class="gallery-filter-btn active" data-filter="all">All Photos</button>
+            <button class="gallery-filter-btn" data-filter="termite">Termite Treatment</button>
+            <button class="gallery-filter-btn" data-filter="fogging">Fogging & Spraying</button>
+            <button class="gallery-filter-btn" data-filter="rodent">Rodent Control</button>
+            <button class="gallery-filter-btn" data-filter="onsite">On-Site Work</button>
+        </div>
+
+        <div class="gallery-grid">
+            <!-- Item 1 - Termite -->
+            <div class="gallery-item" data-category="termite" style="cursor: pointer;">
+                <img src="https://placehold.co/800x600?text=Technician+Trenching+Foundation+for+Anti-Termite+Treatment" alt="Technician trenching foundation for anti-termite treatment" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4>Soil Trenching Barrier</h4>
+                    <p>Foundation soil barrier spray before pouring slab</p>
+                    <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); font-weight: 800; margin-top: 8px;"><i class="fas fa-search-plus"></i> View Image</span>
+                </div>
+            </div>
+
+            <!-- Item 2 - Fogging -->
+            <div class="gallery-item" data-category="fogging" style="cursor: pointer;">
+                <img src="https://placehold.co/800x600?text=Technician+Fogging+Building+Entrance+with+Smoke+Machine" alt="Technician fogging a building entrance with smoke machine" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4>Thermal Hot Fogging</h4>
+                    <p>Breaking mosquito cycles at building entrance</p>
+                    <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); font-weight: 800; margin-top: 8px;"><i class="fas fa-search-plus"></i> View Image</span>
+                </div>
+            </div>
+
+            <!-- Item 3 - Rodent -->
+            <div class="gallery-item" data-category="rodent" style="cursor: pointer;">
+                <img src="https://placehold.co/800x600?text=White+Rodent+Bait+Station+Box" alt="White rodent bait station box placed outdoors" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4>Lockable Rodent Station</h4>
+                    <p>Tamper-resistant bait boxes installed along industrial perimeter</p>
+                    <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); font-weight: 800; margin-top: 8px;"><i class="fas fa-search-plus"></i> View Image</span>
+                </div>
+            </div>
+
+            <!-- Item 4 - On-Site -->
+            <div class="gallery-item" data-category="onsite" style="cursor: pointer;">
+                <img src="https://placehold.co/800x600?text=Technician+Spraying+Garden+and+Perimeter+Area" alt="Technician spraying garden/perimeter area for ticks and outdoor pests" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4>Garden & Perimeter Spray</h4>
+                    <p>Protecting outdoor vegetation and lawn boundaries</p>
+                    <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); font-weight: 800; margin-top: 8px;"><i class="fas fa-search-plus"></i> View Image</span>
+                </div>
+            </div>
+
+            <!-- Item 5 - Termite -->
+            <div class="gallery-item" data-category="termite" style="cursor: pointer;">
+                <img src="https://placehold.co/800x600?text=Wall+Drilling+and+Chemical+Injection+for+Termite+Control" alt="Wall drilling and chemical injection for termites" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4>Tile Drilling Treatment</h4>
+                    <p>Post-construction chemical injection to block termites</p>
+                    <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); font-weight: 800; margin-top: 8px;"><i class="fas fa-search-plus"></i> View Image</span>
+                </div>
+            </div>
+
+            <!-- Item 6 - Fogging -->
+            <div class="gallery-item" data-category="fogging" style="cursor: pointer;">
+                <img src="https://placehold.co/800x600?text=Indoor+Cold+Fogging+Treatment+for+Viruses+and+Mosquitoes" alt="Indoor cold fogging mist disinfestation" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4>ULV Cold Fogging</h4>
+                    <p>Subtle sanitization and mosquito defense inside offices</p>
+                    <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); font-weight: 800; margin-top: 8px;"><i class="fas fa-search-plus"></i> View Image</span>
+                </div>
+            </div>
+
+            <!-- Item 7 - Rodent -->
+            <div class="gallery-item" data-category="rodent" style="cursor: pointer;">
+                <img src="https://placehold.co/800x600?text=Setting+Up+Multi-Catch+Rodent+Traps+in+Warehouse" alt="Technician configuring multiple multi-catch glue traps" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4>Warehouse Defenses</h4>
+                    <p>Pest bait stations inside food processing warehouses</p>
+                    <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); font-weight: 800; margin-top: 8px;"><i class="fas fa-search-plus"></i> View Image</span>
+                </div>
+            </div>
+
+            <!-- Item 8 - On-Site -->
+            <div class="gallery-item" data-category="onsite" style="cursor: pointer;">
+                <img src="https://placehold.co/800x600?text=On-Site+General+Disinfestation+at+Residential+Premises" alt="Technician spraying baseboards inside a house" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4>Residential Treatment</h4>
+                    <p>Carefully applying target-sprays on critical baseboard lines</p>
+                    <span style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent-color); font-weight: 800; margin-top: 8px;"><i class="fas fa-search-plus"></i> View Image</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta-banner reveal">
+        <div class="cta-banner-content">
+            <h2>Safeguard Your Property from Costly Pests Today</h2>
+            <p>Our Solapur based extermination teams are active 7 days a week. Book your certified inspection now!</p>
+            <div class="cta-banner-actions">
+                <a href="#" class="btn btn-white open-booking-modal-btn"><i class="fas fa-calendar-check"></i> Book a Service</a>
+                <a href="https://wa.me/917559352915?text=Hi%2C%20I%20need%20pest%20control%20service" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Chat On WhatsApp</a>
+                <a href="tel:+917559352915" class="btn btn-tel"><i class="fas fa-phone-alt"></i> Call +91 7559352915</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column footer-about">
+                <a href="index.html" class="logo-container" style="margin-bottom: 20px;">
+                    <div class="logo-icon" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+                        <i class="fas fa-shield-virus" style="color: #E13B3B;"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1 style="color: #ffffff;">Jay Vijay</h1>
+                        <span style="color: #E13B3B;">Pest Control</span>
+                    </div>
+                </a>
+                <p>Jay Vijay Pest Control is Solapur's most trusted partner for residential, commercial, and industrial pest solutions. We employ trained technicians, eco-friendly chemicals, and technical expertise to safeguard your properties.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/917559352915" target="_blank" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="pricing.html"><i class="fas fa-chevron-right"></i> Packages & Pricing</a></li>
+                    <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Service Gallery</a></li>
+                    <li><a href="testimonials.html"><i class="fas fa-chevron-right"></i> Customer Reviews</a></li>
+                    <li><a href="faq.html"><i class="fas fa-chevron-right"></i> Help & FAQs</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> General Pest Control</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Termite Inspection</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Cockroach Treatment</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Rodent Extermination</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Bed Bug Control</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Mosquito Fogging</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <div class="footer-contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>10 B, Sonatmata Nagar, New R.T.O. Office, Vijapur Road, Solapur – 413004, Maharashtra</p>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>
+                        <a href="tel:+917559352915">+91 7559352915</a><br>
+                        <a href="tel:+917559352915" style="font-size: 0.8rem; color: #E13B3B;">(Click to Call)</a>
+                    </p>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="mailto:jayvijaypestcontrol@gmail.com">jayvijaypestcontrol@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Jay Vijay Pest Control. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions-container">
+        <a href="https://wa.me/917559352915?text=Hi%2C%20I%20need%20pest%20control%20service" target="_blank" class="floating-btn floating-whatsapp" data-tooltip="WhatsApp Us" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+917559352915" class="floating-btn floating-call" data-tooltip="Call Support" aria-label="Call Jay Vijay Pest Control">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <button class="floating-btn back-to-top" id="back-to-top" data-tooltip="Back to Top" aria-label="Scroll to top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <!-- Reusable Booking Modal -->
+    <div class="modal-overlay" id="booking-modal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div>
+                    <h3>Book Pest Control</h3>
+                    <span>No payment required now — confirms via WhatsApp</span>
+                </div>
+                <button class="modal-close" id="close-booking-modal" aria-label="Close Modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="whatsapp-booking-form" novalidate>
+                    <div class="form-group">
+                        <label for="booking-name">Full Name <span style="color: var(--accent-color);">*</span></label>
+                        <input type="text" id="booking-name" class="form-control" placeholder="Enter your full name" required>
+                        <div class="form-error">Please enter your name (minimum 2 characters).</div>
+                    </div>
+                    
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label for="booking-mobile">Mobile Number <span style="color: var(--accent-color);">*</span></label>
+                            <input type="tel" id="booking-mobile" class="form-control" placeholder="10-digit mobile number" maxlength="10" required>
+                            <div class="form-error">Enter a valid 10-digit mobile starting with 6-9.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-email">Email Address <span style="color: var(--text-muted); font-size: 0.75rem;">(Optional)</span></label>
+                            <input type="email" id="booking-email" class="form-control" placeholder="yourname@example.com">
+                            <div class="form-error">Please enter a valid email format.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="booking-service">Service / Package Needed <span style="color: var(--accent-color);">*</span></label>
+                        <select id="booking-service" class="form-control" required>
+                            <option value="" disabled selected>-- Select a Pest Control Service --</option>
+                            <option value="General Pest Control">General Pest Control</option>
+                            <option value="Termite Control & Inspection">Termite Control & Inspection</option>
+                            <option value="Cockroach Extermination">Cockroach Extermination</option>
+                            <option value="Rodent / Rat Control Treatment">Rodent / Rat Control Treatment</option>
+                            <option value="Bed Bug Extermination">Bed Bug Extermination</option>
+                            <option value="Mosquito Control & Fogging Service">Mosquito Control & Fogging Service</option>
+                            <option value="Ant Extermination">Ant Extermination</option>
+                            <option value="Bee, Wasp & Hornet Removal">Bee, Wasp & Hornet Removal</option>
+                            <option value="Spider Extermination">Spider Extermination</option>
+                            <option value="Bat Extermination">Bat Extermination</option>
+                            <option value="Flea & Mite Extermination">Flea & Mite Extermination</option>
+                            <option value="Home / Property Pest Inspection">Home / Property Pest Inspection</option>
+                            <option value="Basic Package (One-Time Treatment)">Basic Package (One-Time General Treatment - ₹1200)</option>
+                            <option value="Standard Package (Quarterly AMC)">Standard Package (Quarterly General AMC - ₹950/qtr)</option>
+                            <option value="Premium Package (Comprehensive AMC)">Premium Package (Comprehensive AMC - ₹1800/qtr)</option>
+                            <option value="Pre-Construction Anti-Termite Treatment">Pre-Construction Anti-Termite Treatment</option>
+                        </select>
+                        <div class="form-error">Please select a service or package.</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="booking-address">Property Address / Area in Solapur <span style="color: var(--accent-color);">*</span></label>
+                        <input type="text" id="booking-address" class="form-control" placeholder="House/Flat No., Building, Area/Colony in Solapur" required>
+                        <div class="form-error">Property address is required (minimum 5 characters).</div>
+                    </div>
+                    
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label for="booking-date">Preferred Date <span style="color: var(--accent-color);">*</span></label>
+                            <input type="date" id="booking-date" class="form-control" required>
+                            <div class="form-error">Please select a preferred date.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-time">Preferred Time Slot <span style="color: var(--accent-color);">*</span></label>
+                            <select id="booking-time" class="form-control" required>
+                                <option value="" disabled selected>-- Select Time Slot --</option>
+                                <option value="Morning (9 AM - 12 PM)">Morning (9 AM - 12 PM)</option>
+                                <option value="Afternoon (12 PM - 4 PM)">Afternoon (12 PM - 4 PM)</option>
+                                <option value="Evening (4 PM - 7 PM)">Evening (4 PM - 7 PM)</option>
+                            </select>
+                            <div class="form-error">Please select a preferred time slot.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="booking-message">Additional Message / Pest Symptoms <span style="color: var(--text-muted); font-size: 0.75rem;">(Optional)</span></label>
+                        <textarea id="booking-message" class="form-control" placeholder="Any specific requirements or pest issues we should know about?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Send Booking via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- On-page Confirmation Banner -->
+    <div class="confirm-banner-wrapper" id="booking-confirm-banner">
+        <div class="confirm-banner-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="confirm-banner-text">
+            <h4>Booking Request Drafted!</h4>
+            <p>Your booking details have opened in WhatsApp — <strong>please tap Send in WhatsApp</strong> to submit your booking to Jay Vijay Pest Control. Our team will review your message and reply instantly to confirm your appointment.</p>
+        </div>
+        <button class="confirm-banner-close" id="close-confirm-banner" aria-label="Close Confirmation">&times;</button>
+    </div>
+
+    <!-- Core Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>

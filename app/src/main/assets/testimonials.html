@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews & Testimonials | Jay Vijay Pest Control Solapur</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="title" content="Customer Reviews & Testimonials | Jay Vijay Pest Control Solapur">
+    <meta name="description" content="Read 100% verified reviews and testimonials from our residential, commercial, and industrial clients across Solapur. See why we are rated 5 stars for termite control, rodent trapping, and eco-safe AMC services.">
+    <link rel="canonical" href="https://jayvijaypestcontrol.github.io/testimonials.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jayvijaypestcontrol.github.io/testimonials.html">
+    <meta property="og:title" content="Customer Reviews & Testimonials | Jay Vijay Pest Control Solapur">
+    <meta property="og:description" content="Read 100% verified reviews and testimonials from our residential, commercial, and industrial clients across Solapur. Rated 5 stars for termites, rodents, and AMC.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://jayvijaypestcontrol.github.io/testimonials.html">
+    <meta property="twitter:title" content="Customer Reviews & Testimonials | Jay Vijay Pest Control Solapur">
+    <meta property="twitter:description" content="Read 100% verified reviews and testimonials from our residential, commercial, and industrial clients across Solapur. Rated 5 stars for termites, rodents, and AMC.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Loader Spinner -->
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Dismissible top promo banner -->
+    <div class="top-banner" id="top-promo-banner">
+        <p><i class="fas fa-percent"></i> <strong>Monsoon Shield Deal!</strong> Free Comprehensive Property Inspection This Week in Solapur. <a href="#" class="open-booking-modal-btn" style="text-decoration: underline; margin-left: 5px; font-weight: 700;">Claim Free Inspection Now</a></p>
+        <button class="close-banner" id="close-banner-btn" aria-label="Close Promo Banner">&times;</button>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <div class="logo-icon">
+                    <i class="fas fa-shield-virus"></i>
+                </div>
+                <div class="logo-text">
+                    <h1>Jay Vijay</h1>
+                    <span>Pest Control</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="testimonials.html" class="nav-link active">Reviews</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="#" class="btn btn-accent nav-cta open-booking-modal-btn">Get Free Quote</a>
+            </nav>
+            
+            <button class="hamburger" id="hamburger-menu" aria-label="Toggle Navigation Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Subpage Banner -->
+    <section class="hero-wrapper" style="padding: 60px 0; background: linear-gradient(135deg, rgba(18, 40, 63, 0.95), rgba(10, 23, 37, 0.98)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;">
+        <div class="section-container" style="padding: 40px 20px; text-align: center;">
+            <h1 style="color: white; font-size: 3rem; margin-bottom: 10px;">Customer Reviews</h1>
+            <p style="color: rgba(255,255,255,0.8); font-size: 1.1rem; max-width: 600px; margin: 0 auto;">Honest stories from Jule Solapur, Vijapur Road, and MIDC of how we safeguard homes and businesses.</p>
+        </div>
+    </section>
+
+    <!-- Interactive Carousel Slider (JS-Controlled) -->
+    <section class="section-container reveal" style="padding-bottom: 0;">
+        <div class="section-header">
+            <span class="section-badge">Featured Testimonials</span>
+            <h2 class="section-title">What Our Featured Clients Say</h2>
+        </div>
+
+        <div class="testimonials-carousel-wrapper" style="position: relative; max-width: 900px; margin: 0 auto 60px auto; overflow: hidden; background: var(--bg-light); border-radius: var(--radius-xl); padding: 50px 70px; border: 1px solid var(--border-color); box-shadow: var(--shadow-lg);">
+            <!-- Prev Arrow -->
+            <button class="testimonials-nav-btn testimonials-prev" id="testimonials-prev" aria-label="Previous Review" style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); background: var(--primary-color); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: all var(--transition-fast); z-index: 10;"><i class="fas fa-chevron-left"></i></button>
+            
+            <div class="testimonials-slider-track-container" style="overflow: hidden; width: 100%;">
+                <div class="testimonials-slider-track" id="testimonials-track" style="display: flex; transition: transform var(--transition-normal); width: 100%;">
+                    <!-- Slide 1 -->
+                    <div class="testimonial-slide" style="min-width: 100%; box-sizing: border-box; text-align: center;">
+                        <div class="author-avatar" style="width: 80px; height: 80px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: 700; margin: 0 auto 20px auto; border: 4px solid var(--accent-color);">MS</div>
+                        <p class="testimonial-quote" style="font-size: 1.2rem; font-style: italic; line-height: 1.8; color: var(--primary-color); margin-bottom: 20px;">"Outstanding experience. The technician arrived punctually in professional gear, conducted termite drilling along our entire living room wall, injected premium chemical, and sealed everything cleanly. 100% recommended for Solapur bungalows!"</p>
+                        <h4 style="font-size: 1.15rem; font-weight: 700; color: var(--primary-color); margin-bottom: 5px;">Milind Shah</h4>
+                        <p style="font-size: 0.85rem; color: var(--accent-color); font-weight: 600; margin-bottom: 10px;">Bungalow Owner, Jule Solapur — Service: Termite Treatment</p>
+                        <div class="testimonial-stars" style="color: #FFC107;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="testimonial-slide" style="min-width: 100%; box-sizing: border-box; text-align: center;">
+                        <div class="author-avatar" style="width: 80px; height: 80px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: 700; margin: 0 auto 20px auto; border: 4px solid var(--accent-color);">VJ</div>
+                        <p class="testimonial-quote" style="font-size: 1.2rem; font-style: italic; line-height: 1.8; color: var(--primary-color); margin-bottom: 20px;">"Herbal Gel cockroach baiting works like magic! Our kitchen was crawling with cockroaches, but Jay Vijay Pest Control did a silent gel treatment. Odorless, completely safe for kids and pets, and we haven't seen a single roach since then!"</p>
+                        <h4 style="font-size: 1.15rem; font-weight: 700; color: var(--primary-color); margin-bottom: 5px;">Vaishali Jadhav</h4>
+                        <p style="font-size: 0.85rem; color: var(--accent-color); font-weight: 600; margin-bottom: 10px;">Housewife, Vijapur Road — Service: General Pest Control AMC</p>
+                        <div class="testimonial-stars" style="color: #FFC107;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="testimonial-slide" style="min-width: 100%; box-sizing: border-box; text-align: center;">
+                        <div class="author-avatar" style="width: 80px; height: 80px; border-radius: 50%; background: var(--primary-color); color: white; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; font-weight: 700; margin: 0 auto 20px auto; border: 4px solid var(--accent-color);">AM</div>
+                        <p class="testimonial-quote" style="font-size: 1.2rem; font-style: italic; line-height: 1.8; color: var(--primary-color); margin-bottom: 20px;">"Excellent corporate AMC contract! They configured professional lockable rodent bait boxes along our warehouse and fogged lawn perimeter against mosquitoes. Unmatched reliability and highly systematic reporting."</p>
+                        <h4 style="font-size: 1.15rem; font-weight: 700; color: var(--primary-color); margin-bottom: 5px;">Abhijit Mane</h4>
+                        <p style="font-size: 0.85rem; color: var(--accent-color); font-weight: 600; margin-bottom: 10px;">Warehouse Manager, Solapur MIDC — Service: Rodent Control & Fogging</p>
+                        <div class="testimonial-stars" style="color: #FFC107;"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Next Arrow -->
+            <button class="testimonials-nav-btn testimonials-next" id="testimonials-next" aria-label="Next Review" style="position: absolute; right: 15px; top: 50%; transform: translateY(-50%); background: var(--primary-color); color: white; border: none; width: 44px; height: 44px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; transition: all var(--transition-fast); z-index: 10;"><i class="fas fa-chevron-right"></i></button>
+            
+            <!-- Dots Navigation -->
+            <div class="testimonials-dots" id="testimonials-dots" style="display: flex; justify-content: center; gap: 8px; margin-top: 25px;"></div>
+        </div>
+    </section>
+
+    <!-- Full Grid Section with 8-10 Testimonials -->
+    <section class="section-container reveal">
+        <div class="section-header" style="margin-bottom: 40px;">
+            <h2 class="section-title">Verified Customer Reviews</h2>
+            <p class="section-subtitle">Real feedback from homes and commercial premises across Solapur</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; margin-bottom: 50px;">
+            <!-- Review 1 (Termite) -->
+            <div class="testimonial-bubble" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div class="testimonial-stars" style="color: #FFC107; margin-bottom: 15px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); font-style: normal; margin-bottom: 20px;">"We had a massive termite infestation in our kitchen wardrobes. The Jay Vijay team completed a comprehensive drill-fill termite barrier treatment. Their technician was highly skilled and cleaned up all the dust afterward."</p>
+                </div>
+                <div class="testimonial-author" style="display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <img src="https://placehold.co/100x100?text=K" alt="Ketan Kulkarni" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent-color);">
+                    <div class="author-details">
+                        <h4 style="font-size: 1rem; font-weight: 700; color: var(--primary-color);">Ketan Kulkarni</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Homeowner, Jule Solapur</p>
+                        <span style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600;">Service: Termite Treatment</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 2 (Rodent) -->
+            <div class="testimonial-bubble" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div class="testimonial-stars" style="color: #FFC107; margin-bottom: 15px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); font-style: normal; margin-bottom: 20px;">"Our commercial food outlet on Vijapur Road had a rodent issue. Jay Vijay setup dynamic bait station boxes along the outer walls. The rats were exterminated in under a week. Great industrial standard work!"</p>
+                </div>
+                <div class="testimonial-author" style="display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <img src="https://placehold.co/100x100?text=S" alt="Siddharth Mehta" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent-color);">
+                    <div class="author-details">
+                        <h4 style="font-size: 1rem; font-weight: 700; color: var(--primary-color);">Siddharth Mehta</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Restaurant Owner, Vijapur Road</p>
+                        <span style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600;">Service: Rodent Control Grid</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 3 (Fogging) -->
+            <div class="testimonial-bubble" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div class="testimonial-stars" style="color: #FFC107; margin-bottom: 15px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); font-style: normal; margin-bottom: 20px;">"Our society was facing severe mosquito problems during the onset of the monsoon. We hired them for lawn fogging and perimeter spraying. The results are outstanding; we can sit in our gardens peacefully now."</p>
+                </div>
+                <div class="testimonial-author" style="display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <img src="https://placehold.co/100x100?text=R" alt="Ramesh Gaikwad" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent-color);">
+                    <div class="author-details">
+                        <h4 style="font-size: 1rem; font-weight: 700; color: var(--primary-color);">Ramesh Gaikwad</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Society Secretary, Solapur</p>
+                        <span style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600;">Service: Mosquito Fogging</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 4 (General AMC) -->
+            <div class="testimonial-bubble" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div class="testimonial-stars" style="color: #FFC107; margin-bottom: 15px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); font-style: normal; margin-bottom: 20px;">"I opted for their Standard Quarterly AMC package. They do general pest spray and cockroach gel treatment every 3 months. Highly professional, always message before scheduling, and no extra charge for follow-ups."</p>
+                </div>
+                <div class="testimonial-author" style="display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <img src="https://placehold.co/100x100?text=A" alt="Anjali Deshpande" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent-color);">
+                    <div class="author-details">
+                        <h4 style="font-size: 1rem; font-weight: 700; color: var(--primary-color);">Anjali Deshpande</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Flat Owner, Samrat Chowk</p>
+                        <span style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600;">Service: Standard Package AMC</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 5 (Bed Bug) -->
+            <div class="testimonial-bubble" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div class="testimonial-stars" style="color: #FFC107; margin-bottom: 15px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); font-style: normal; margin-bottom: 20px;">"Our PG hostel had a severe bedbug infestation. Students couldn't sleep. The technician sprayed every corner and wood joint, returning 15 days later to spray again. Excellent result, hostel is 100% bugs-free!"</p>
+                </div>
+                <div class="testimonial-author" style="display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <img src="https://placehold.co/100x100?text=P" alt="Prakash Patil" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent-color);">
+                    <div class="author-details">
+                        <h4 style="font-size: 1rem; font-weight: 700; color: var(--primary-color);">Prakash Patil</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Hostel Owner, Solapur</p>
+                        <span style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600;">Service: Bed Bug Spray</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 6 (Termite) -->
+            <div class="testimonial-bubble" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div class="testimonial-stars" style="color: #FFC107; margin-bottom: 15px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); font-style: normal; margin-bottom: 20px;">"Very helpful and technically competent team. They completed pre-construction anti-termite chemical soil barriers at our new site on Vijapur Road. Provided fully signed warranty documents instantly."</p>
+                </div>
+                <div class="testimonial-author" style="display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <img src="https://placehold.co/100x100?text=S" alt="Shantanu Kale" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent-color);">
+                    <div class="author-details">
+                        <h4 style="font-size: 1rem; font-weight: 700; color: var(--primary-color);">Shantanu Kale</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Civil Contractor, Solapur</p>
+                        <span style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600;">Service: Pre-Construction Termite</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 7 (Emergency) -->
+            <div class="testimonial-bubble" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div class="testimonial-stars" style="color: #FFC107; margin-bottom: 15px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); font-style: normal; margin-bottom: 20px;">"Had an emergency wasp nest on our third-floor balcony window. Called Jay Vijay and they dispatched a technician in fully protected suit. He removed the entire nest within an hour safely. Superb response."</p>
+                </div>
+                <div class="testimonial-author" style="display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <img src="https://placehold.co/100x100?text=P" alt="Prachi Shinde" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent-color);">
+                    <div class="author-details">
+                        <h4 style="font-size: 1rem; font-weight: 700; color: var(--primary-color);">Prachi Shinde</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Resident, Sonatmata Nagar</p>
+                        <span style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600;">Service: Emergency Wasp Removal</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Review 8 (Cockroach) -->
+            <div class="testimonial-bubble" style="box-shadow: var(--shadow-sm); border: 1px solid var(--border-color); padding: 30px; border-radius: var(--radius-lg); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div class="testimonial-stars" style="color: #FFC107; margin-bottom: 15px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote" style="font-size: 0.95rem; line-height: 1.6; color: var(--text-dark); font-style: normal; margin-bottom: 20px;">"Our kitchen cabinets were heavily infested with German cockroaches. Their technician completed a quick herbal gel baiting treatment. It did not smell, did not require vacating, and cockroaches are gone entirely!"</p>
+                </div>
+                <div class="testimonial-author" style="display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px;">
+                    <img src="https://placehold.co/100x100?text=N" alt="Nitin Patil" style="width: 50px; height: 50px; border-radius: 50%; border: 2px solid var(--accent-color);">
+                    <div class="author-details">
+                        <h4 style="font-size: 1rem; font-weight: 700; color: var(--primary-color);">Nitin Patil</h4>
+                        <p style="font-size: 0.8rem; color: var(--text-muted);">Homeowner, Samrat Chowk</p>
+                        <span style="font-size: 0.75rem; color: var(--accent-color); font-weight: 600;">Service: Cockroach Gel Treatment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action -->
+    <section class="cta-banner reveal">
+        <div class="cta-banner-content">
+            <h2>Join 5,000+ Happy Solapur Residents We Protect!</h2>
+            <p>Our dispatch vans are fully loaded with eco-safe chemicals and advanced fogging equipment. Contact us today to secure your property!</p>
+            <div class="cta-banner-actions">
+                <a href="#" class="btn btn-white open-booking-modal-btn"><i class="fas fa-calendar-check"></i> Book Now</a>
+                <a href="https://wa.me/917559352915?text=Hi%2C%20I%20need%20pest%20control%20service" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Chat On WhatsApp</a>
+                <a href="tel:+917559352915" class="btn btn-tel"><i class="fas fa-phone-alt"></i> Call +91 7559352915</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column footer-about">
+                <a href="index.html" class="logo-container" style="margin-bottom: 20px;">
+                    <div class="logo-icon" style="background: rgba(255,255,255,0.05); border-color: rgba(255,255,255,0.1);">
+                        <i class="fas fa-shield-virus" style="color: #E13B3B;"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1 style="color: #ffffff;">Jay Vijay</h1>
+                        <span style="color: #E13B3B;">Pest Control</span>
+                    </div>
+                </a>
+                <p>Jay Vijay Pest Control is Solapur's most trusted partner for residential, commercial, and industrial pest solutions. We employ trained technicians, eco-friendly chemicals, and technical expertise to safeguard your properties.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="https://wa.me/917559352915" target="_blank" class="social-icon" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                    <li><a href="pricing.html"><i class="fas fa-chevron-right"></i> Packages & Pricing</a></li>
+                    <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Service Gallery</a></li>
+                    <li><a href="testimonials.html"><i class="fas fa-chevron-right"></i> Customer Reviews</a></li>
+                    <li><a href="faq.html"><i class="fas fa-chevron-right"></i> Help & FAQs</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> General Pest Control</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Termite Inspection</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Cockroach Treatment</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Rodent Extermination</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Bed Bug Control</a></li>
+                    <li><a href="services.html"><i class="fas fa-chevron-right"></i> Mosquito Fogging</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Contact Info</h3>
+                <div class="footer-contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>10 B, Sonatmata Nagar, New R.T.O. Office, Vijapur Road, Solapur – 413004, Maharashtra</p>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>
+                        <a href="tel:+917559352915">+91 7559352915</a><br>
+                        <a href="tel:+917559352915" style="font-size: 0.8rem; color: #E13B3B;">(Click to Call)</a>
+                    </p>
+                </div>
+                <div class="footer-contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="mailto:jayvijaypestcontrol@gmail.com">jayvijaypestcontrol@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Jay Vijay Pest Control. All Rights Reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions-container">
+        <a href="https://wa.me/917559352915?text=Hi%2C%20I%20need%20pest%20control%20service" target="_blank" class="floating-btn floating-whatsapp" data-tooltip="WhatsApp Us" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+917559352915" class="floating-btn floating-call" data-tooltip="Call Support" aria-label="Call Jay Vijay Pest Control">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <button class="floating-btn back-to-top" id="back-to-top" data-tooltip="Back to Top" aria-label="Scroll to top">
+            <i class="fas fa-chevron-up"></i>
+        </button>
+    </div>
+
+    <!-- Reusable Booking Modal -->
+    <div class="modal-overlay" id="booking-modal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div>
+                    <h3>Book Pest Control</h3>
+                    <span>No payment required now — confirms via WhatsApp</span>
+                </div>
+                <button class="modal-close" id="close-booking-modal" aria-label="Close Modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="whatsapp-booking-form" novalidate>
+                    <div class="form-group">
+                        <label for="booking-name">Full Name <span style="color: var(--accent-color);">*</span></label>
+                        <input type="text" id="booking-name" class="form-control" placeholder="Enter your full name" required>
+                        <div class="form-error">Please enter your name (minimum 2 characters).</div>
+                    </div>
+                    
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label for="booking-mobile">Mobile Number <span style="color: var(--accent-color);">*</span></label>
+                            <input type="tel" id="booking-mobile" class="form-control" placeholder="10-digit mobile number" maxlength="10" required>
+                            <div class="form-error">Enter a valid 10-digit mobile starting with 6-9.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-email">Email Address <span style="color: var(--text-muted); font-size: 0.75rem;">(Optional)</span></label>
+                            <input type="email" id="booking-email" class="form-control" placeholder="yourname@example.com">
+                            <div class="form-error">Please enter a valid email format.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="booking-service">Service / Package Needed <span style="color: var(--accent-color);">*</span></label>
+                        <select id="booking-service" class="form-control" required>
+                            <option value="" disabled selected>-- Select a Pest Control Service --</option>
+                            <option value="General Pest Control">General Pest Control</option>
+                            <option value="Termite Control & Inspection">Termite Control & Inspection</option>
+                            <option value="Cockroach Extermination">Cockroach Extermination</option>
+                            <option value="Rodent / Rat Control Treatment">Rodent / Rat Control Treatment</option>
+                            <option value="Bed Bug Extermination">Bed Bug Extermination</option>
+                            <option value="Mosquito Control & Fogging Service">Mosquito Control & Fogging Service</option>
+                            <option value="Ant Extermination">Ant Extermination</option>
+                            <option value="Bee, Wasp & Hornet Removal">Bee, Wasp & Hornet Removal</option>
+                            <option value="Spider Extermination">Spider Extermination</option>
+                            <option value="Bat Extermination">Bat Extermination</option>
+                            <option value="Flea & Mite Extermination">Flea & Mite Extermination</option>
+                            <option value="Home / Property Pest Inspection">Home / Property Pest Inspection</option>
+                            <option value="Basic Package (One-Time Treatment)">Basic Package (One-Time General Treatment - ₹1200)</option>
+                            <option value="Standard Package (Quarterly AMC)">Standard Package (Quarterly General AMC - ₹950/qtr)</option>
+                            <option value="Premium Package (Comprehensive AMC)">Premium Package (Comprehensive AMC - ₹1800/qtr)</option>
+                            <option value="Pre-Construction Anti-Termite Treatment">Pre-Construction Anti-Termite Treatment</option>
+                        </select>
+                        <div class="form-error">Please select a service or package.</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="booking-address">Property Address / Area in Solapur <span style="color: var(--accent-color);">*</span></label>
+                        <input type="text" id="booking-address" class="form-control" placeholder="House/Flat No., Building, Area/Colony in Solapur" required>
+                        <div class="form-error">Property address is required (minimum 5 characters).</div>
+                    </div>
+                    
+                    <div class="form-grid-2">
+                        <div class="form-group">
+                            <label for="booking-date">Preferred Date <span style="color: var(--accent-color);">*</span></label>
+                            <input type="date" id="booking-date" class="form-control" required>
+                            <div class="form-error">Please select a preferred date.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="booking-time">Preferred Time Slot <span style="color: var(--accent-color);">*</span></label>
+                            <select id="booking-time" class="form-control" required>
+                                <option value="" disabled selected>-- Select Time Slot --</option>
+                                <option value="Morning (9 AM - 12 PM)">Morning (9 AM - 12 PM)</option>
+                                <option value="Afternoon (12 PM - 4 PM)">Afternoon (12 PM - 4 PM)</option>
+                                <option value="Evening (4 PM - 7 PM)">Evening (4 PM - 7 PM)</option>
+                            </select>
+                            <div class="form-error">Please select a preferred time slot.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="booking-message">Additional Message / Pest Symptoms <span style="color: var(--text-muted); font-size: 0.75rem;">(Optional)</span></label>
+                        <textarea id="booking-message" class="form-control" placeholder="Any specific requirements or pest issues we should know about?"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Send Booking via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- On-page Confirmation Banner -->
+    <div class="confirm-banner-wrapper" id="booking-confirm-banner">
+        <div class="confirm-banner-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="confirm-banner-text">
+            <h4>Booking Request Drafted!</h4>
+            <p>Your booking details have opened in WhatsApp — <strong>please tap Send in WhatsApp</strong> to submit your booking to Jay Vijay Pest Control. Our team will review your message and reply instantly to confirm your appointment.</p>
+        </div>
+        <button class="confirm-banner-close" id="close-confirm-banner" aria-label="Close Confirmation">&times;</button>
+    </div>
+
+    <!-- Core Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>

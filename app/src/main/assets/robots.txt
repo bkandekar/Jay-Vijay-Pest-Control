@@ -1,0 +1,5 @@
+# Robots.txt for Jay Vijay Pest Control
+User-agent: *
+Allow: /
+
+Sitemap: https://jayvijaypestcontrol.com/sitemap.xml
