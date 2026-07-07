@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const waText = `New General Inquiry - Jay Vijay Pest Control\n\nName: ${name}\nMobile: ${mobile}\nEmail: ${email}\nInquiry Message: ${message}\n\nPlease respond to this inquiry.`;
         const encodedMessage = encodeURIComponent(waText);
-        const waURL = "https://wa.me/919922464685?text=" + encodedMessage;
+        const waURL = "https://wa.me/917559352915?text=" + encodedMessage;
 
         window.open(waURL, "_blank");
 
@@ -580,8 +580,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // URL encode the text payload
         const encodedMessage = encodeURIComponent(waText);
         
-        // Target booking desk phone number is +91 9922464685
-        const waURL = "https://wa.me/919922464685?text=" + encodedMessage;
+        // Target booking desk phone number is +91 7559352915
+        const waURL = "https://wa.me/917559352915?text=" + encodedMessage;
 
         // Open WhatsApp chat in a new tab
         window.open(waURL, "_blank");
